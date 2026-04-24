@@ -70,8 +70,6 @@ python run_experiments.py --systems 7z LLVM x264 --budgets 10 20 30 40 50 --repe
 python build_submission_docs.py --artifact-link "https://github.com/zhaibuqun-cell/rf-smbo-configuration-tuning"
 ```
 
-After you push the repository to GitHub, replace the placeholder with the real public repository URL and rerun the command above so that the final PDFs contain the correct artifact link.
-
 ## Where Results Are Stored
 
 The final generated outputs are stored in [outputs/final_run](</C:/Users/zsanity/Documents/New project/lab3_project/outputs/final_run>), including:
