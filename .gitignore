@@ -1,0 +1,6 @@
+vendor/
+__pycache__/
+.pytest_cache/
+outputs/*
+!outputs/final_run/
+!outputs/final_run/**

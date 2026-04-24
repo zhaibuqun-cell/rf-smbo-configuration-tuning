@@ -1,0 +1,69 @@
+{
+  "final_budget": 50,
+  "systems_evaluated": [
+    {
+      "system": "7z",
+      "options": 8,
+      "configurations": 68640,
+      "optimum": 4196.4,
+      "worst": 424574.6
+    },
+    {
+      "system": "LLVM",
+      "options": 16,
+      "configurations": 65536,
+      "optimum": 52285.4,
+      "worst": 103691.8
+    },
+    {
+      "system": "x264",
+      "options": 10,
+      "configurations": 4608,
+      "optimum": 21.556,
+      "worst": 195.776
+    }
+  ],
+  "final_budget_summary": [
+    {
+      "system": "x264",
+      "random_search": 0.00802739830865189,
+      "rf_smbo": 0.00016836949450885428,
+      "gap_reduction_pct": 97.90256459147683
+    },
+    {
+      "system": "LLVM",
+      "random_search": 0.1351156016890244,
+      "rf_smbo": 0.027183256040752366,
+      "gap_reduction_pct": 79.88148244840293
+    },
+    {
+      "system": "7z",
+      "random_search": 0.002876838047263156,
+      "rf_smbo": 0.006427339318102922,
+      "gap_reduction_pct": -123.41679345549157
+    }
+  ],
+  "significant_systems_at_final_budget": [
+    {
+      "system": "LLVM",
+      "budget": 50,
+      "wilcoxon_statistic": 465.0,
+      "p_value": 9.313225746154785e-10,
+      "rf_smbo_win_rate": 1.0,
+      "rf_smbo_mean_gap": 0.027183256040752366,
+      "random_search_mean_gap": 0.1351156016890244,
+      "median_gap_improvement": 0.11490787139344517
+    },
+    {
+      "system": "x264",
+      "budget": 50,
+      "wilcoxon_statistic": 464.0,
+      "p_value": 9.104006068674105e-07,
+      "rf_smbo_win_rate": 0.9666666666666667,
+      "rf_smbo_mean_gap": 0.00016836949450885428,
+      "random_search_mean_gap": 0.00802739830865189,
+      "median_gap_improvement": 0.008753300424750306
+    }
+  ],
+  "project_note": "The valid dataset rows define the candidate configuration space. Runtime values are only revealed when a row is measured. Global optimum and worst values are reserved for post-hoc evaluation."
+}

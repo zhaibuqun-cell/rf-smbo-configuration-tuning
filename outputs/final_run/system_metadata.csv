@@ -1,0 +1,4 @@
+system,options,configurations,optimum,worst
+7z,8,68640,4196.4,424574.6
+LLVM,16,65536,52285.4,103691.8
+x264,10,4608,21.556,195.776
